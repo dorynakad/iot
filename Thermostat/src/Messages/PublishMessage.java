@@ -15,8 +15,15 @@ public class PublishMessage extends UDPMessage {
     private TempConfigData configData;
     private EventData eventData;
     
+    public boolean configDataisNull() {
+    	return configData == null;
+    }
+    
+    public boolean eventDataisNull() {
+    	return eventData == null;
+    }
     public PublishMessage(){
-   
+    	
     }
 
 

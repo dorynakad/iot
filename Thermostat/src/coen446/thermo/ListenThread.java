@@ -55,8 +55,8 @@ public class ListenThread implements Runnable {
 
             ObjectInputStream is = new ObjectInputStream(in);
             message = (UDPMessage) is.readObject();
-            System.out.println("->Client received message: \""+ message + "\"");
-            message.displayMessage();
+//            System.out.println("->Client received message: \""+ message + "\"");
+//            message.displayMessage();
 
         } catch (IOException e) {
             e.printStackTrace();

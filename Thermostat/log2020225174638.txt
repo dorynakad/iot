@@ -1,0 +1,38 @@
+Please Configure Client
+Enter the server port number that the client will connect to:
+You have entered Server port: 2000
+Please enter the IP address for the server
+You entered InetAddress = /132.205.95.115
+Client: creating message object: "Register"
+Temperature is now: 15
+a has entered
+Temperature is now: 20
+a has left
+Room is now empty
+Temperature is now: 15
+a has entered
+Temperature is now: 20
+a has left
+Room is now empty
+Temperature is now: 15
+a has entered
+Temperature is now: 20
+b has entered
+c has entered
+d has entered
+a has left
+b now has priority
+Temperature is now: 21
+b has left
+c now has priority
+Temperature is now: 22
+c has left
+d now has priority
+Temperature is now: 23
+a has entered
+d has left
+a now has priority
+Temperature is now: 20
+a has left
+Room is now empty
+Temperature is now: 15

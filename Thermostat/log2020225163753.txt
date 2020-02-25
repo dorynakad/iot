@@ -1,0 +1,11 @@
+Please Configure Client
+Enter the server port number that the client will connect to:
+You have entered Server port: 2000
+Please enter the IP address for the server
+You entered InetAddress = /132.205.95.115
+Client: creating message object: "Register"
+Please enter message type
+->Client received message: "Publish"
+Message type: Publish
+Message ID: 5
+Subscriber: /132.205.95.117

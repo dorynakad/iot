@@ -123,7 +123,7 @@ public class Client {
 
             Thread listen = new Thread(myListenThread);
             listen.start();
-
+            System.out.println("Temperature is now: " + temperature);
 
             while(true) {
 
@@ -272,7 +272,8 @@ public class Client {
     	}
     	
     	temperature = 15;
-
+    	people = new CopyOnWriteArrayList<>();
+    	configlist = new CopyOnWriteArrayList<>();
         Client client = new Client();
         setupBackup();
         client.connect();
