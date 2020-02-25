@@ -1,4 +1,4 @@
-# iot
+# IOT COEN446
 
 
 This project consists of developing a smart thermostat that optimizes the heating and the cooling system of the house
